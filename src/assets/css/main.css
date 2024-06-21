@@ -54,3 +54,24 @@ a.refresh-game {
     text-decoration: none;
     cursor: pointer;
 }
+
+.text-score {
+    border-color: #26abff;
+    border-style: solid;
+    min-width: 35px;
+    text-align: center;
+    color: #0F5132;
+    padding: 0.5em;
+}
+
+.life-icon {
+    padding: 0.15em;
+}
+
+.life-icon.survive {
+    color: red;
+}
+
+.life-icon.death {
+    color: black;
+}
